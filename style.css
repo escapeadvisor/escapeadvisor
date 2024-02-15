@@ -1,0 +1,383 @@
+
+.row{
+  margin: 0% auto;
+  justify-content: left;
+  align-items: left;
+}
+
+
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+} 
+
+
+h2 {text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+ul {
+  list-style:circle;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  font-family:  'Open Sans';
+  color: "black";
+
+}
+
+.rodape{
+  background-color: #13253F;
+  height: 230px;
+}
+
+a {
+  font-family: 'Open Sans';
+  color:#ff5757;
+}
+
+/* .navbar a {
+  text-transform: uppercase;
+} */
+
+.navbar .nav-brand .active {
+  color: white;
+  text-decoration: underline;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color:black
+}
+
+
+h2 {
+  font-weight: 400;
+}
+h3 {
+  font-weight: 100;
+}
+
+h5{
+  color:black;
+  font-size: 20px;
+}
+
+
+h6{
+  color: white;
+  font-size: 16px;
+}
+h7{
+  color: white;
+  font-size: 14px;
+}
+
+.viajar{
+  margin-bottom: -3%;
+}
+
+.procuradas{
+  margin-bottom: -3%;
+  margin-top: -3;
+}
+
+#portugal {
+  padding: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.cidade{
+  margin: 0% auto;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-bottom: -3;
+
+}
+
+.lisboa{
+  width: 300px;
+  height: 315px;
+  margin: 1%;
+  margin-bottom: -3%;
+}
+
+.faro{
+  width: 300px;
+  height: 315px;
+  margin: 1%;
+  margin-bottom: -3%;
+}
+
+.porto{
+  width: 300px;
+  height: 315px;
+  margin: 1%;
+  margin-bottom: -3%;
+}
+
+#atualidade {
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.noticias{
+  margin-bottom: -3;
+}
+
+
+.hotel{
+  width: 300px;
+  height: 315px;
+  margin: -3%;
+  
+}
+
+.china{
+  width: 300px;
+  height: 315px;
+  margin: -3%;
+ 
+ 
+}
+
+i{
+  color: white;
+}
+
+ .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+
+button{
+  background-color: #13253F;
+  font-family: 'Open Sans';
+  color:#fffefe;
+}
+
+.imagem1{
+  margin-top: 20px;
+ float: left;
+  width: 480;
+  height: 500;
+  margin-left: 15%;
+}
+
+/* .torre{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+} */
+
+ .doce {
+  display: flex;
+  margin: 16px 0;
+  gap: 36px;
+  justify-content: center;
+}
+
+
+
+/* .section-1 > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.section-1 img {
+  width: 100%; */
+
+
+
+.quantidade{
+  font-size: 20px;
+  }
+  
+  .preparação{
+    color: #E7C1CA;
+    margin-left: 15%;
+  }
+  
+  .processo{
+    font-size: 20px;
+    margin-left: 15%;
+  }
+  
+  .avalie{
+    color: #E7C1CA;
+  }
+  
+  .estrelas{
+    color: #F4D150;
+    align-items: center;
+  }
+
+ul{
+  list-style-type: none;
+}
+  
+
+.texto{
+  padding: 80px;
+  margin-top: -70px;
+  margin-bottom: -50px;
+}
+
+
+
+
+
+/* .col-md-3{
+  align-self: center;
+  margin: 1%;
+} */
+
+
+/* .row{
+  margin:0% auto;
+
+  justify-content:center;
+
+  align-items:center;
+} */
+
+.col-md-3{
+  margin: 1%;
+  align-self: center;
+}
+
+.contatos1{
+  border: solid 2px white;
+  margin-left: 50px;
+}
+
+.contatos2{
+  border: solid 2px white;
+  margin-left: 50px;
+}
+
+
+.imagem1{
+  margin-top: 20px;
+  float: right;
+  width: 480;
+  height: auto;
+}
+
+#esquerda {
+  width: 35%;
+  float: left;
+}
+
+#direita {
+  width: 65%;
+
+}
+
+
+.section-1 {
+  display: flex;
+  margin: 16px 0;
+  gap: 36px;
+}
+
+.section-1 > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.section-1 img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.lisboa img{
+  border-radius: 5%;
+}
+
+.faro img{
+  border-radius: 5%;
+}
+
+.porto img{
+  border-radius: 5%;
+}
+
+.hotel img{
+  border-radius: 5%;
+}
+
+.china img{
+  border-radius: 5%;
+}
+
+#image{
+  height: 400px;
+  width: 300px;
+  margin-left: 45%;
+}
+
+.text{
+  margin-right: 10%;
+}
+
+
+.bi-airplane-fill{
+  color: black;
+}
+
+.aviao{
+  color: black;
+
+}
+
+.pais{
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.bi-geo-alt-fill{
+  color: black;
+}
+
+.bi-coin{
+  color: black;
+}
+
+.bi-hourglass-split{
+  color: black;
+}
+
+.newslleter{
+  display: block;
+}
+
+.pontos{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
